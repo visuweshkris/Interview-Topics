@@ -1,0 +1,158 @@
+Azure Services:
+
+Compute service
+Storage service
+Manage Identity service
+App service
+Monitoring service
+Network service
+Azure Keyvault service
+Database service
+
+
+
+
+1 Compute Service
+VM Creation 
+capture
+snapshot
+How to increase size of the VM , without downtime
+Scaleup and scaledown
+Access management - adminstartor ,contributor
+How to integrate storage account with VM
+why need choose AKS Cluster over VM
+Size of the VMS
+How to login via Azure Cli
+How to create a vm using azure Cli/Terraform
+Avalablity zone and availability set
+reserved instance - cost optimization use case
+How to setup DR and How to backup the VM
+Bastion service -(private ip connection)
+scenario
+VM is down how to troublshoot
+VM is slow or unable to respond how to troubleshoot
+How to integrate NFS - File share with VM
+attach disk and detach disk
+How to monitor vm , using azure monitoring
+
+2 Storage Service
+
+ Types of storages
+Blob, table , file , queue 
+blob - types of containers - hot , cold , archive 
+Time period and which is cost efficient
+How to store the data in blob
+How to secure your storage account
+Redudancy - LRS , GRS , ZRS , GZRS
+Usecase each storage .(where we can , how can we use it)
+How to deploy static website in storage account
+SAS Token - important - time period , how to setup that
+soft delete , Hard delete 
+point in time recovery 
+blob versioning
+How to create storage account using terraform.
+Pursh protection , immutable storage
+DR and backup storage account
+
+3 Network Service:
+
+How to create Vnet
+subnet
+Vnet peering
+Firewall
+Azure application gateway 
+Traffic manager
+Azure CDN - Azure front door
+AFW - Application firewall
+Load balancer - standard (azure load balancer)
+Private endpoint
+Service endpoint
+Private link
+NSG - Network security groups
+ASG - Application security group
+DDOS Attack
+Route tables (Vnet and subnet)
+DNS - private and external DNS
+NAT gateway
+site to site connection VPN
+Point to site connection VPN
+Express route
+How to secure your network
+How to monitor your network
+NIC
+
+4. Identity Management:
+
+Active directory
+Tenant
+subscription
+Service principal
+Manage identity
+AD groups how to create
+How to onboard user
+Microsoft license
+App registration
+RBAC
+Privileged identity
+Multifactor authentication
+Billings - azure subscription
+Single signon
+
+
+5. App service
+  
+App service , logic app and function app
+App service
+app service plan , cost management
+Deployment slots
+How to deploy the appservice
+logic and function app - basic understanding
+How to setup App service via terraform
+Scale up and scale down
+What is PAAS
+   
+
+
+6 Azure keyvalut
+
+How to setup a keyvalut - via Terraform
+Permission/ roles in keyvault
+How to integrate with azure devops
+Access policies
+How to integrate with AKS
+Key rotation
+How to secure your key vault
+
+7 Database Service
+How many types of DB
+what is query how to run
+connection string
+How to integrate with your VM
+Backup policy
+Failover
+replicas 
+sql sever / sql instance
+how to upgrade the DB
+
+8. Monitoring
+ How to monitor azure infra
+ alerts
+ application insights
+ Log analytics
+ metrics
+
+
+----------------------------------------------------------------------------------
+Kubernets
+
+AKS Cluster  - calico azure cni, How to scale up the instance , integrate with DB , Secure connection (private endpoint)
+ACR - How to login and how to upload image , how to secure your images and manage your repos
+
+---------------------------------------------------------
+
+
+  
+
+
+
+
