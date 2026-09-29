@@ -1,0 +1,76 @@
+Kubernetes Important concepts
+
+1 Kubernetes architecture - api , schedular ,etcd , control manager and kubeproxy , kubelet , container runtime.
+2.Namespace -
+  types of name space
+  How to create ns
+  Can we restrict the namespace based on  the resource limit
+3. Controllers
+Deployment  - Able to write a script
+statefulset - able to write a script - volume claim templates
+Demonset    - able to write a synatx
+Replication controller
+
+4. Services
+Clusterip - able to write a script
+Nodeport  - able to write a script
+Load balancer - able to write
+externalname
+Ingress - able to write a script and how its setup and usecase
+
+5 Write one yaml file which contain namespace and deployment or statefulset with service
+6 PV and PVC - Able to write script
+  -> able to how to setup with your pod
+  -> Troubleshooting issues in PV and PVC
+
+7 Node/pod selector and Node affinity and use case and anti affinity as well.
+8 Pod lifecycle
+9 Errors - Crashloop back off , imagepull backoff , registry error , oom error
+10 Probes - startup, readiness, livness probe - script intail delay seconds
+
+-------------------------------------------------------------------------------------------------------
+11 Config map and secrets -you should know how to create and how to mount to pods.
+12 Init containers and side car container
+13 daemon set vs sidecar containers
+14 RBAC - Role binding and cluster role binding
+15 Network policy
+16 HPA and VPA - horizontal pod autoscaling and vertical pod autocaling and use case
+17 Pod distruption budget , custom resource defination
+18 Deployment strategies
+19 How to upgrade the cluster
+20 helm chart - able to create one java application helmchart not hello world
+   -> Structure and values.yaml etc
+------------------------------------------------------------------------------------------------------------------
+
+21 argo cd
+22 Headless service
+23 Taints and tolerance
+24 Service account
+25 Kustomize
+26 CRI - container runtime interface
+
+---------------------------------------------------------------------------------------------------------------
+
+
+Realtime use case
+
+1 pod is getting terminated how to troubleshoot
+2 Node is not responding how to troubleshoot
+3 pod is running application is not accessable why , how to resolve
+4 can we able to update the secrets while pod is running ? how
+5 can we able to update the version while pod is running how?
+6 how to integrate k8 with azure devops pipleline
+7 How to integrate k8 with azure keyvault to avoid to store passkey in secrerts
+8 Connectivity issue
+9 How will you roleback when you have production issue
+10 canary deployment and blue green deployment - yaml file
+11 pod to pod communication restriction -> network policy
+12 what are the ways we have to secure your cluster
+13 azure cni , calcio - networking in Kubernetes
+14 endpoints and endpointsslice
+15 Kubetctl cordon drain
+16 Requests and Cpu limits in the pod level - Resource quotas
+17 How to make your pod highly available
+18 How to integrate Prometheus and Grafana with aks cluster
+19 Node autoscaling in aks
+20 Networking in aks cluster
